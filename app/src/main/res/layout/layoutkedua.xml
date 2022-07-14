@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai Mahasiswa"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Nim"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Nama"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Jumlah Presensi Kehadiran"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txpresensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai Tugas"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai UTS"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai UAS"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+</LinearLayout>
+

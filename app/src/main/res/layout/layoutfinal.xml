@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Akhir Mahasiswa"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/tampilmatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mata Kuliah Pilihan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM                   :"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tampilnim"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="NIM"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA              :"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tampilnama"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textSize="30sp"
+        android:hint="NAMA"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NILAI AKHIR   :"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tampilakhir"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="NILAI AKHIR"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRADE             :"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tampilgrade"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:hint="GRADE NILAI"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

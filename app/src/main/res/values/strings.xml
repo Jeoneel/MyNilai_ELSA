@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project UAS 19030019</string>
+    <string name="presensi"> </string>
+
+    <string-array name="mata_kuliah">
+        <item>                       </item>
+        <item>Komputasi Cerdas</item>
+        <item>Komputer Dan Masyarakat</item>
+        <item>Mobile Computing</item>
+        <item>Manajemen Proyek</item>
+        <item>Simulator Pesawat Terbang</item>
+
+
+    </string-array>
+</resources>

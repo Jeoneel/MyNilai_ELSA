@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Proses Input Nilai Mahasiswa"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Pilih Mata Kuliah"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Spinner
+        android:id="@+id/spJK_Add"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:entries="@array/mata_kuliah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+</LinearLayout>
